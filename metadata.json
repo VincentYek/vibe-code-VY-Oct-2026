@@ -1,0 +1,6 @@
+{
+  "name": "The New York Times",
+  "description": "Daily breaking news, world & US politics, election tracker, opinion, games, and Wirecutter reviews.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
