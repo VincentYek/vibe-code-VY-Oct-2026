@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Libre Franklin', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    color: #121212;
+    background-color: #ffffff;
+  }
+}
+
+.font-masthead {
+  font-family: 'UnifrakturMaguntia', 'Cinzel', serif;
+  letter-spacing: -0.5px;
+}
+
+.font-headline {
+  font-family: 'Newsreader', Georgia, serif;
+}
+
+.font-sans-editorial {
+  font-family: 'Libre Franklin', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.border-nyt {
+  border-color: #e2e2e2;
+}
+
+.border-nyt-dark {
+  border-color: #121212;
+}
+
+.nyt-divider-double {
+  border-top: 1px solid #121212;
+  border-bottom: 1px solid #121212;
+  height: 4px;
+}
+
+.nyt-divider-double-light {
+  border-top: 1px solid #e2e2e2;
+  border-bottom: 1px solid #e2e2e2;
+  height: 3px;
+}
+
+/* Custom drop-cap for article reader */
+.drop-cap::first-letter {
+  font-family: 'Newsreader', Georgia, serif;
+  font-size: 3.5rem;
+  line-height: 0.8;
+  float: left;
+  margin-right: 0.5rem;
+  margin-top: 0.15rem;
+  font-weight: 700;
+}
+
+/* Hide scrollbar for clean tab rails */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
