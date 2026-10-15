@@ -6,3 +6,15 @@ coverage/
 *.log
 .env*
 !.env.example
+*.iml
+.gradle
+.kotlin
+/local.properties
+/.idea/
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+debug.keystore
+.build-outputs
+.aistudio
